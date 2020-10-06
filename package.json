@@ -1,6 +1,6 @@
 {
   "name": "pm2-auto-restart-monit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "auto restart pm2 process using a constraint",
   "main": "index.js",
   "repository": "https://github.com/elr0nda10/pm2-auto-restart-monit.git",
