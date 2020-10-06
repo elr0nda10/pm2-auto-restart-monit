@@ -27,6 +27,7 @@ async function monitoring() {
     if(pidMap[pid] === 4) {
       console.log(`pid: ${ps[i].pid} restarting ...`);
       await pm2.restart(ps[i].pm_id);
+      pidMap[pid] = 0;
     }
 
     console.log(`pid: ${ps[i].pid} done`);
