@@ -1,0 +1,22 @@
+{
+  "name": "pm2-auto-restart-monit",
+  "version": "0.0.1",
+  "description": "auto restart pm2 process using a constraint",
+  "main": "index.js",
+  "repository": "https://github.com/elr0nda10/pm2-auto-restart-monit.git",
+  "author": "elr0nda <elr0nda@geene.io>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "git add . && cz",
+    "release": "standard-version"
+  }
+}
